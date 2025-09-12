@@ -38,7 +38,7 @@ The project repository has the following structure:
 │
 ├── /page_block_data
 │   └── page_blocks.data             # The dataset used for classification
-├── Page_Blocks_Classification.py    # Python script to train and evaluate models
+├── page_blocks_classification.py    # Python script to train and evaluate models
 ├── /project-document
 │   └── documentation.pdf           # Project report with details and choices made
 ├── README.md                       # This file
