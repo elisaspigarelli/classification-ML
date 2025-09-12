@@ -44,3 +44,8 @@ The project repository has the following structure:
 ├── README.md                       # This file
 
 ```
+## Conclusion
+
+The project demonstrates how machine learning can be applied to classify page blocks in a dataset. By using different models and evaluating their performance, we were able to identify the best approach for this classification task.
+
+A full explanation of the project, including the methodology, model choices, and results, can be found in the project documentation.
