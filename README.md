@@ -74,11 +74,11 @@ The script will output the evaluation metrics for each model, such as accuracy, 
 ## Model Selection
 
 Different machine learning algorithms were tested to find the best-performing model for this classification task. Models tested include:
-- k-Nearest Neighbours (k-NN):
-- Softmax Regression: 
+- k-Nearest Neighbours (k-NN): A simple, instance-based learning algorithm that classifies samples based on the majority label of their nearest neighbors.
+- Softmax Regression: A generalization of logistic regression for multi-class classification.
 - Support Vector Machine (SVM): A powerful classifier that works well in high-dimensional spaces.
-- Multi-layer Perceptron (MLP):
-- Naive Bayes:
+- Multi-layer Perceptron (MLP): A feedforward neural network capable of capturing complex nonlinear relationships.
+- Naive Bayes: A probabilistic classifier based on Bayes' theorem.
 
 The choice of algorithms was based on their ability to handle the dataset's complexity and their performance on classification tasks.
 For more details about the machine learning algorithms and their hyper parameters, refer to the project document provided.
@@ -92,7 +92,8 @@ After training and evaluating multiple models, the following metrics were used t
 - F1-Score: The harmonic mean of precision and recall, useful for imbalanced datasets.
 
 The models were compared based on these metrics to select the best-performing model for the task.
-<img width="631" height="217" alt="Screenshot_20250915_090540" src="https://github.com/user-attachments/assets/29f44b5b-9425-4460-a13d-1e7e6ae6bd51" />
+ 
+  <img width="631" height="217" alt="Screenshot_20250915_090540" src="https://github.com/user-attachments/assets/29f44b5b-9425-4460-a13d-1e7e6ae6bd51" />
 
 ## Conclusion
 
