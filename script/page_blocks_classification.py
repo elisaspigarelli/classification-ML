@@ -57,7 +57,7 @@ def plot_classification_report(y_test, y_pred):
 ###########################################################################
 
 # load Dataset
-dataset_filename = 'page_blocks_data/page-blocks.data'
+dataset_filename = '../page_blocks_data/page-blocks.data'
 
 df = pd.read_csv(dataset_filename, sep='\s+',
                  names=['height', 'length', 'area', 'eccen', 'p_black', 'p_and', 'mean_tr', 'blackpix', 'blackand', 'wb_trans', 'Class'])
