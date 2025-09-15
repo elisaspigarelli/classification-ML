@@ -44,6 +44,56 @@ The project repository has the following structure:
 ├── README.md                       # This file
 
 ```
+## Installation
+To get started with this project, clone the repository and install the required dependencies.
+
+Clone the repository:
+```sh
+git clone https://github.com/elisaspigarelli/classification-ML.git
+cd classification-ML
+```
+
+### Install dependencies:
+This project requires Python 3.x and several libraries. You can install the dependencies by running:
+```sh
+pip install -r requirements.txt
+```
+
+### Usage
+To run the classification model, execute the Python script page_blocks_classification.py.
+
+```sh
+python page_blocks_classification.py
+```
+
+The script will load the dataset, preprocess the data, train multiple classification models (e.g., Softmax Regression, Support Vector Machine, Multi-layer Perceptron), and evaluate their performance.
+
+Output:
+The script will output the evaluation metrics for each model, such as accuracy, precision, recall, and confusion matrix, to help assess the performance.
+
+## Model Selection
+
+Different machine learning algorithms were tested to find the best-performing model for this classification task. Models tested include:
+- k-Nearest Neighbours (k-NN):
+- Softmax Regression: 
+- Support Vector Machine (SVM): A powerful classifier that works well in high-dimensional spaces.
+- Multi-layer Perceptron (MLP):
+- Naive Bayes:
+
+The choice of algorithms was based on their ability to handle the dataset's complexity and their performance on classification tasks.
+For more details about the machine learning algorithms and their hyper parameters, refer to the project document provided.
+
+## Evaluation
+After training and evaluating multiple models, the following metrics were used to assess the models:
+
+- Accuracy: The percentage of correctly classified instances, calcutated by balanced_accuracy_score function.
+- Precision: The proportion of true positives among all positive predictions.
+- Recall: The proportion of true positives among all actual positives.
+- F1-Score: The harmonic mean of precision and recall, useful for imbalanced datasets.
+
+The models were compared based on these metrics to select the best-performing model for the task.
+<img width="631" height="217" alt="Screenshot_20250915_090540" src="https://github.com/user-attachments/assets/29f44b5b-9425-4460-a13d-1e7e6ae6bd51" />
+
 ## Conclusion
 
 The project demonstrates how machine learning can be applied to classify page blocks in a dataset. By using different models and evaluating their performance, we were able to identify the best approach for this classification task.
