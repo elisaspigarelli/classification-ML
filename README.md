@@ -37,11 +37,12 @@ The project repository has the following structure:
 /classification-ML
 │
 ├── /page_block_data
-│   └── page_blocks.data               # The dataset used for classification
+│   └── page_blocks.data                # The dataset used for classification
 ├── /script
 │   └──page_blocks_classification.py    # Python script to train and evaluate models
 ├── /project-document
 │   └── documentation.pdf               # Project report with details and choices made
+├── requirements.txt                    # Files with the project's dependencies
 ├── README.md                           # This file
 
 ```
